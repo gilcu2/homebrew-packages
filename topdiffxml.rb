@@ -5,20 +5,20 @@
 class Topdiffxml < Formula
   desc "Generate top differences between 2 xml documents."
   homepage "https://github.com/gilcu2/topdiffxml"
-  version "0.5.5"
+  version "0.5.6"
   depends_on :macos
 
   on_intel do
-    url "https://github.com/gilcu2/topdiffxml/releases/download/v0.5.5/topdiffxml_Darwin_x86_64.tar.gz"
-    sha256 "975a9ea5e198a83819295d80e3eb2dbeb239e4ca900ee1b2158c7965ee406384"
+    url "https://github.com/gilcu2/topdiffxml/releases/download/v0.5.6/topdiffxml_Darwin_x86_64.tar.gz"
+    sha256 "3ad6f3df78810cfac8ba13e1db475b6c7e1ab109e1b63af478e528104712148f"
 
     def install
       bin.install "topdiffxml"
     end
   end
   on_arm do
-    url "https://github.com/gilcu2/topdiffxml/releases/download/v0.5.5/topdiffxml_Darwin_arm64.tar.gz"
-    sha256 "9ef0154e62120904642530b54dc93a6d1e00e7b6102f2ec3a881b9cb263d35ac"
+    url "https://github.com/gilcu2/topdiffxml/releases/download/v0.5.6/topdiffxml_Darwin_arm64.tar.gz"
+    sha256 "21feb66c067733df4a26d988cedfdbcbd2cad5ec4d50731ce2b8736866741867"
 
     def install
       bin.install "topdiffxml"
