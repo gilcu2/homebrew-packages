@@ -5,20 +5,20 @@
 class Covertable < Formula
   desc "Generate coverage table by files"
   homepage "https://github.com/gilcu2/covertable"
-  version "0.2.1"
+  version "0.2.2"
 
   on_macos do
     on_intel do
-      url "https://github.com/gilcu2/covertable/releases/download/v0.2.1/covertable_Darwin_x86_64.tar.gz"
-      sha256 "7643f71cff2a5319e869db45ea3f05ccde3f60d55489a6aa442dad429f670580"
+      url "https://github.com/gilcu2/covertable/releases/download/v0.2.2/covertable_Darwin_x86_64.tar.gz"
+      sha256 "043ab0a6daa5952a529176cc1860b5e670aabf9bbffc8cfe7ceaffe785494772"
 
       def install
         bin.install "covertable"
       end
     end
     on_arm do
-      url "https://github.com/gilcu2/covertable/releases/download/v0.2.1/covertable_Darwin_arm64.tar.gz"
-      sha256 "f5d0af32f6f682b7968dc704a6e78c89917c130207b06971527fdea267d166a5"
+      url "https://github.com/gilcu2/covertable/releases/download/v0.2.2/covertable_Darwin_arm64.tar.gz"
+      sha256 "bb2dbddfaedb7f8c8d4d3b045ece1db137faca8dfc4fca24c7d72ba9e691d627"
 
       def install
         bin.install "covertable"
@@ -29,8 +29,8 @@ class Covertable < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/gilcu2/covertable/releases/download/v0.2.1/covertable_Linux_x86_64.tar.gz"
-        sha256 "30c37650bf4264b3705dc390694bb1ecf09a8616a71ba421bd3be1305e58ecd5"
+        url "https://github.com/gilcu2/covertable/releases/download/v0.2.2/covertable_Linux_x86_64.tar.gz"
+        sha256 "4541897741118dfdaa7f278ca77ff8a02de11745e89e0441beaa2786f428498d"
 
         def install
           bin.install "covertable"
@@ -39,8 +39,8 @@ class Covertable < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/gilcu2/covertable/releases/download/v0.2.1/covertable_Linux_arm64.tar.gz"
-        sha256 "476793fb2500a3c7af22b8507a469546d7477f3b0b753140974ddaac031e8a42"
+        url "https://github.com/gilcu2/covertable/releases/download/v0.2.2/covertable_Linux_arm64.tar.gz"
+        sha256 "d214806a38a18eb2982077e7ce462f03ef5ad091c724d1c2504ff06f24f83e1d"
 
         def install
           bin.install "covertable"
